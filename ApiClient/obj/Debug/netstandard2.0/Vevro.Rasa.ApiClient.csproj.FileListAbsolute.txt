@@ -1,0 +1,9 @@
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\bin\Debug\netstandard2.0\Vevro.Rasa.ApiClient.deps.json
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\bin\Debug\netstandard2.0\Vevro.Rasa.ApiClient.dll
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\bin\Debug\netstandard2.0\Vevro.Rasa.ApiClient.pdb
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.AssemblyInfoInputs.cache
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.AssemblyInfo.cs
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.csproj.CoreCompileInputs.cache
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.dll
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.pdb
+C:\Work\Repos\OrderingBot\Vevro.Rasa.ApiClient\obj\Debug\netstandard2.0\Vevro.Rasa.ApiClient.csprojAssemblyReference.cache

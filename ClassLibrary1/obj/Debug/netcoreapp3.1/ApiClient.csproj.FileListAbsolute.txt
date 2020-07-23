@@ -1,0 +1,9 @@
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.AssemblyInfoInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.AssemblyInfo.cs
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.csproj.CoreCompileInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.csprojAssemblyReference.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\bin\Debug\netcoreapp3.1\ApiClient.deps.json
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\bin\Debug\netcoreapp3.1\ApiClient.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\bin\Debug\netcoreapp3.1\ApiClient.pdb
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\ClassLibrary1\obj\Debug\netcoreapp3.1\ApiClient.pdb

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "3Bg6hQepX2NG8e9ZvG/Oc+8Jn3yVGx/BzEUuRhR/ql2jTT7HLrKyrBn81UOVbNX2cYi31yvMK18QWwuUxHQAPQ==",
+  "success": true,
+  "projectFilePath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.api.gax\\3.0.0\\google.api.gax.3.0.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.api.gax.rest\\3.0.0\\google.api.gax.rest.3.0.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.apis\\1.44.1\\google.apis.1.44.1.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.apis.auth\\1.44.1\\google.apis.auth.1.44.1.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.apis.core\\1.44.1\\google.apis.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.apis.translate.v2\\1.42.0.875\\google.apis.translate.v2.1.42.0.875.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\google.cloud.translation.v2\\2.0.0\\google.cloud.translation.v2.2.0.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

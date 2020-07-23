@@ -1,0 +1,9 @@
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\bin\Debug\netcoreapp3.1\DBConnector.deps.json
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\bin\Debug\netcoreapp3.1\DBConnector.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.csprojAssemblyReference.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.AssemblyInfoInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.AssemblyInfo.cs
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\bin\Debug\netcoreapp3.1\DBConnector.pdb
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.csproj.CoreCompileInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\DBConnector\obj\Debug\netcoreapp3.1\DBConnector.pdb

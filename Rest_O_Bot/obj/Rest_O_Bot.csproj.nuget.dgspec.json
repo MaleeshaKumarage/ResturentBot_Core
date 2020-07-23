@@ -1,0 +1,427 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\Rest_O_Bot\\Rest_O_Bot.csproj": {}
+  },
+  "projects": {
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\ApiClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\ApiClient.csproj",
+        "projectName": "ApiClient",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\ApiClient.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\DBConnector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\DBConnector.csproj",
+        "projectName": "DBConnector",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\DBConnector.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\ProductInventory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\ProductInventory.csproj",
+        "projectName": "ProductInventory",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\ProductInventory.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\Rest_O_Bot\\Rest_O_Bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\Rest_O_Bot\\Rest_O_Bot.csproj",
+        "projectName": "Rest_O_Bot",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\Rest_O_Bot\\Rest_O_Bot.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\Rest_O_Bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\ApiClient.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ClassLibrary1\\ApiClient.csproj"
+              },
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\DBConnector.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\DBConnector\\DBConnector.csproj"
+              },
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\ProductInventory.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ProductInventory\\ProductInventory.csproj"
+              },
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj"
+              },
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.Recognizers.Text.DataTypes.TimexExpression": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj",
+        "projectName": "SinhalaTokenizationLibrary",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj",
+        "projectName": "TranslationHandler",
+        "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\TranslationHandler.csproj",
+        "packagesPath": "C:\\Users\\Maleesha\\.nuget\\packages\\",
+        "outputPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\TranslationHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maleesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vevro.pkgs.visualstudio.com/_packaging/VetaPackageFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj": {
+                "projectPath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\SinhalaTokenizationLibrary\\SinhalaTokenizationLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

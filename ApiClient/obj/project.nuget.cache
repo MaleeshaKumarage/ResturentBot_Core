@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ydkCyzc6fHlE8tWseZlS2j42iLn/U2nsJ8C0ZDc41XQ/1cte/ofY/GbtFFbf3rVRXNzgvnvLqjV4q4IvpHWxHA==",
+  "success": true,
+  "projectFilePath": "F:\\Research_Docs_Maleesha\\Research_proj\\Rest_O_Bot\\ApiClient\\Vevro.Rasa.ApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maleesha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\restsharp\\106.10.1\\restsharp.106.10.1.nupkg.sha512",
+    "C:\\Users\\Maleesha\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

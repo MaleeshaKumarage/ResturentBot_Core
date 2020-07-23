@@ -1,0 +1,9 @@
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\bin\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.deps.json
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\bin\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\bin\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.pdb
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.csprojAssemblyReference.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.AssemblyInfoInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.AssemblyInfo.cs
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.csproj.CoreCompileInputs.cache
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.dll
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\SinhalaTokenizationLibrary\obj\Debug\netcoreapp3.1\SinhalaTokenizationLibrary.pdb
