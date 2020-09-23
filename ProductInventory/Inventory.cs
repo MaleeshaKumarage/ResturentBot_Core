@@ -168,6 +168,20 @@ namespace ProductInventory
                 Description="",
                 Price=45.0M,
                 ImageUrl="https://res.cloudinary.com/vevro/image/upload/c_scale,h_720,w_720/v1594907885/RestOBot/InventoryImages/rmcjwadk7gxrfuijdgow.jpg"
+            },new Product(){
+                Id="022",
+                Name_SI="චිකන් කොත්තු",
+                Name_EN="Chicken Koththu",
+                Description="",
+                Price=350.0M,
+                ImageUrl="https://res.cloudinary.com/vevro/image/upload/c_scale,h_720,w_720/v1598580521/RestOBot/InventoryImages/zpskgpzkafavtmk6ans1.jpg"
+            },new Product(){
+                Id="023",
+                Name_SI="චොකලට් කප් කේක්",
+                Name_EN="Chocolate Cup Cake",
+                Description="",
+                Price=350.0M,
+                ImageUrl="https://res.cloudinary.com/vevro/image/upload/c_scale,h_720,w_720/v1598580691/RestOBot/InventoryImages/tvghztwt3paoa4ourxyl.jpg"
             }
             };
             return productList;

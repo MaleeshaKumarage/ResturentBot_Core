@@ -111,7 +111,7 @@ namespace Rest_O_Bot.Dialogs
                 var product = products.FirstOrDefault(a => a.Id == orderDetail.ProductId);
 
                 
-                shoppingMessage = MessageFactory.Text($" {product.Name_SI} {orderDetail.Quantity} ක් ඇතුලත් කරන ල්දී.ඔබට වෙනත් යමක් අවශ්යයිද?");
+                shoppingMessage = MessageFactory.Text($" {product.Name_SI} {orderDetail.QuantityString} ක් ඇතුලත් කරන ල්දී.ඔබට වෙනත් යමක් මිලදී ගැනීමට අවශ්ය නම් සටහන් කරන්න.");
                 await stepContext.Context.SendActivityAsync(shoppingMessage, cancellationToken);
                 await OrderObjectStatePropertyAccessor.DeleteAsync(stepContext.Context, cancellationToken);
 
@@ -175,7 +175,7 @@ namespace Rest_O_Bot.Dialogs
             if (result)
             {
                 //var cart = await Mediator.Send(new AddItemToCartCommand(stepContext.Context.Activity.GetConversationReference(), orderDetail.ProductId, orderDetail.Quantity));
-                var shoppingMessage = MessageFactory.Text($" {orderDetail.ProductName} {orderDetail.Quantity} ක් ඇතුලත් කරන ල්දී.ඔබට වෙනත් යමක් අවශ්යයිද?");
+                var shoppingMessage = MessageFactory.Text($" {orderDetail.ProductName} {orderDetail.Quantity} ක් ඇතුලත් කරන ල්දී.ඔබට වෙනත් යමක් මිලදී ගැනීමට අවශ්ය නම් සටහන් කරන්න.");
                 await stepContext.Context.SendActivityAsync(shoppingMessage, cancellationToken: cancellationToken);
                 await OrderObjectStatePropertyAccessor.DeleteAsync(stepContext.Context, cancellationToken);
                 return await stepContext.EndDialogAsync(cancellationToken: cancellationToken);

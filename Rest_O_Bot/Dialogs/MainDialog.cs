@@ -49,19 +49,13 @@ namespace Rest_O_Bot.Dialogs
         {
 
 
-            if (dc.Context.Activity.Text != null && !IsAllCharSinhala(dc.Context.Activity.Text.Replace(" ", "")))
-            {
-                dc.Context.Activity.Text = await new Translation().EnglishTOSinhala(await new Translation().SinhalaTOEnglish(dc.Context.Activity.Text));
-            }
+           
             return await HandleMessage(dc, cancellationToken);
         }
         public override async Task<DialogTurnResult> ContinueDialogAsync(DialogContext dc, CancellationToken cancellationToken = default)
         {
 
-            if (dc.Context.Activity.Text != null && !IsAllCharSinhala(dc.Context.Activity.Text.Replace(" ", "")))
-            {
-                dc.Context.Activity.Text = await new Translation().EnglishTOSinhala(dc.Context.Activity.Text);
-            }
+            
             return await HandleMessage(dc, cancellationToken);
         }
 
@@ -74,6 +68,10 @@ namespace Rest_O_Bot.Dialogs
             }
             else if (!string.IsNullOrEmpty(dc.Context.Activity.Text))
             {
+                if (dc.Context.Activity.Text != null && !IsAllCharSinhala(dc.Context.Activity.Text.Replace(" ", "")))
+                {
+                    dc.Context.Activity.Text = await new Translation().EnglishTOSinhala(dc.Context.Activity.Text);
+                }
                 var intent = await new EntityClassifier().GetResultAsync(dc, _modelApi);
                 ChatLogger(dc, intent);
                 var kbResult = await _messagingApi.SendMessageAsync(dc.Context.Activity.Conversation.Id, dc.Context.Activity.Text);
@@ -114,16 +112,17 @@ namespace Rest_O_Bot.Dialogs
                     {
                         if (intent.Entities.Count > 0)
                         {
-                            await dc.Context.SendActivityAsync(await new WikiData().getWikiDataAsync(intent.Entities.FirstOrDefault().Value.ToString()) != null ? await new WikiData().getWikiDataAsync(dc.Context.Activity.Text) : "මට එය වෑටහුනේ නෑ.කරුණාකර නැවත පවසන්න. ", cancellationToken: cancellationToken);
+                            await dc.Context.SendActivityAsync(await new WikiData().getWikiDataAsync(intent.Entities.FirstOrDefault().Value.ToString()) != null ? await new WikiData().getWikiDataAsync(intent.Entities.FirstOrDefault().Value.ToString()) : "මට එය වෑටහුනේ නෑ.කරුණාකර නැවත පවසන්න. ", cancellationToken: cancellationToken);
+                            return EndOfTurn;
                         }
                         else
                         {
                             await dc.Context.SendActivityAsync(await new WikiData().getWikiDataAsync(dc.Context.Activity.Text) != null ? await new WikiData().getWikiDataAsync(dc.Context.Activity.Text) : "මට එය වෑටහුනේ නෑ.කරුණාකර නැවත පවසන්න. ", cancellationToken: cancellationToken);
-
+                            return EndOfTurn;
                         }
-                        return EndOfTurn;
 
-                        await dc.BeginDialogAsync(nameof(AboutRestaurentDialog), cancellationToken: cancellationToken);
+
+                        //await dc.BeginDialogAsync(nameof(AboutRestaurentDialog), cancellationToken: cancellationToken);
                     }
                     case BotIntents.WhatCanYouDo:
                     {

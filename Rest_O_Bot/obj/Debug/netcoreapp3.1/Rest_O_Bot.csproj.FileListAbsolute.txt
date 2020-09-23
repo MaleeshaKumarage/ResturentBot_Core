@@ -96,3 +96,4 @@ F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\obj\Debug\netcorea
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\obj\Debug\netcoreapp3.1\Rest_O_Bot.MvcApplicationPartsAssemblyInfo.cache
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Debug\netcoreapp3.1\TranslationHandler.dll
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Debug\netcoreapp3.1\TranslationHandler.pdb
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\RestOBot - Web Deploy\profile.arm.json

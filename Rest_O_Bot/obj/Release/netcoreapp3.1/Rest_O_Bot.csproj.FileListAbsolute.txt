@@ -96,3 +96,4 @@ F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Release\netcor
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Release\netcoreapp3.1\TranslationHandler.dll
 F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Release\netcoreapp3.1\TranslationHandler.pdb
+F:\Research_Docs_Maleesha\Research_proj\Rest_O_Bot\Rest_O_Bot\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\RestOBot - Web Deploy\profile.arm.json

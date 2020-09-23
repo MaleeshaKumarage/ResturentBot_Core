@@ -15,6 +15,8 @@ namespace TranslationHandler
         {
             string englishText = await new Translation().SinhalaTOEnglish(text.ToLower().Trim());
             englishText = englishText.ToLower().Trim();
+
+            englishText = englishText.Replace("a ", " ");
             englishText = englishText.Replace(" a ", " ");
             englishText = englishText.Replace("is", "");
             englishText = englishText.Replace("are", "");
@@ -29,7 +31,7 @@ namespace TranslationHandler
             englishText = englishText.Replace("this", "");
             englishText = Regex.Replace(englishText, @"[\p{P}-[()\-.]]", "");
 
-            var url = $"https://en.wikipedia.org/api/rest_v1/page/summary/{englishText}";
+            var url = $"https://en.wikipedia.org/api/rest_v1/page/summary/{englishText.Trim()}";
 
             using (var client = new HttpClient())
             {
@@ -59,7 +61,7 @@ namespace TranslationHandler
                 }
             }
 
-            return null;
+           
         }
 
 

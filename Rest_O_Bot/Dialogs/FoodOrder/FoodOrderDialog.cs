@@ -116,7 +116,7 @@ namespace Rest_O_Bot.Dialogs
             var reply = turnContext.Activity.CreateReply();
             if (turnContext.Activity.ChannelId == Microsoft.Bot.Connector.Channels.Facebook)
             {
-                //reply.ChannelData = Helper.CreateFacebookGenericCardAttachment(productList);
+                reply.ChannelData = Helper.CreateFacebookGenericCardAttachment(productList);
             }
             else
             {
@@ -134,7 +134,7 @@ namespace Rest_O_Bot.Dialogs
             }
             else
             {
-                await dc.Context.SendActivityAsync("Sorry I couldn't find any products for you.", cancellationToken: cancellationToken);
+                await dc.Context.SendActivityAsync("කණගාටුයි මට ඔබ වෙනුවෙන් කිසිදු නිෂ්පාදනයක් සොයාගත නොහැකි විය.", cancellationToken: cancellationToken);
             }
             await Helper.SendConfirmationPrompt("ඔබට වෙනත් යමක් අවශයයිද ??", dc.Context, cancellationToken);
             await LastAskedAccessor.SetAsync(dc.Context, "anythingelse", cancellationToken: cancellationToken);

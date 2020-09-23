@@ -50,7 +50,7 @@ namespace Rest_O_Bot.Resources
             return PhraseType.Other;
         }
 
-        
+
         //internal static string GetFormattedItemSearchQueryFromEntities(Rasa.ApiClient.Model.ParseResult parseResult)
         //{
         //    if (!string.IsNullOrWhiteSpace(parseResult?.Text))
@@ -134,36 +134,36 @@ namespace Rest_O_Bot.Resources
         //    return data;
         //}
 
-        //internal static FacebookChannelData<TemplatePayload> CreateFacebookGenericCardAttachment(List<ProductSearchService.ProductSearchResult> ProductList)
-        //{
-        //    var data = new FacebookChannelData<TemplatePayload>();
-        //    var payload = new GenericTemplatePayload();
-        //    ProductList = ProductList?.Take(6).ToList();
+        internal static FacebookChannelData<TemplatePayload> CreateFacebookGenericCardAttachment(List<Product> ProductList)
+        {
+            var data = new FacebookChannelData<TemplatePayload>();
+            var payload = new GenericTemplatePayload();
+            ProductList = ProductList?.Take(6).ToList();
 
-        //    if (ProductList != null && ProductList.Count > 0)
-        //    {
-        //        foreach (var product in ProductList)
-        //        {
-        //            payload.Elements.Add(new GenericTemplatePayloadElement
-        //            {
-        //                Title = product.Product.ProductName,
-        //                Subtitle = $"{"රු "}{product.Product.Price}{"/="}",
-        //                ImageUrl = product.Product.ImageUrl,
-        //                Buttons = new List<Button>{
-        //                        new PostBackButton(){Title="Buy One",Payload=$"{"buynow"}{"!@#$"}{product.Product.Id}{"!@#$"}{1}"},
-        //                        new PostBackButton(){Title="Buy Two",Payload=$"{"buynow"}{"!@#$"}{product.Product.Id}{"!@#$"}{2}"},
-        //                        new PostBackButton(){Title="Buy More",Payload=$"{"buynow"}{"!@#$"}{product.Product.Id}{"!@#$"}{"more"}"},
-        //                      }
-        //            });
-        //        }
-        //        data.Attachment.Payload = payload;
-        //        return data;
-        //    }
-        //    else
-        //    {
-        //        return null;
-        //    }
-        //}
+            if (ProductList != null && ProductList.Count > 0)
+            {
+                foreach (var product in ProductList)
+                {
+                    payload.Elements.Add(new GenericTemplatePayloadElement
+                    {
+                        Title = product.Name_SI,
+                        Subtitle = $"{"රු "}{product.Price}{"/="}",
+                        ImageUrl =  product.ImageUrl  ,
+                        Buttons = new List<Button>{
+                                new PostBackButton(){Title="Buy One",Payload=$"{"buynow"}{"!@#$"}{product.Id}{"!@#$"}{1}"},
+                                new PostBackButton(){Title="Buy Two",Payload=$"{"buynow"}{"!@#$"}{product.Id}{"!@#$"}{2}"},
+                                new PostBackButton(){Title="Buy More",Payload=$"{"buynow"}{"!@#$"}{product.Id}{"!@#$"}{"more"}"},
+                              }
+                    });
+                }
+                data.Attachment.Payload = payload;
+                return data;
+            }
+            else
+            {
+                return null;
+            }
+        }
 
         internal static List<Attachment> CreateHeroCardAttachments(List<Product> ProductList)
         {
